@@ -128,7 +128,7 @@
                         <div class="project-subheading">Its a weather app which giver current weather info of particular city</div>
 
                         <div class="btn-grp">
-                            <button class="btn-pink btn-project">Read More</button>
+                            <button class="btn-pink btn-project weatherButton" >Read More</button>
                             <a href="">
                                 <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                             </a>
@@ -285,6 +285,16 @@
           backSpeed: 80,
           backDelay: 1000,
         });
+        var myButton = document.getElementByClassName('weatherButton');
+
+    // Add a click event listener to the button
+    myButton.addEventListener('click', function() {
+        // Specify the link URL you want to open
+        var linkUrl = 'https://shubhampalve704.github.io/WeatherApp/';
+
+        // Open the link in a new tab/window
+        window.open(linkUrl, '_blank');
+    });
       </script>
     
 </body>
