@@ -128,7 +128,7 @@
                         <div class="project-subheading">Its a weather app which giver current weather info of particular city</div>
 
                         <div class="btn-grp">
-                            <button class="btn-pink btn-project weatherButton" >Read More</button>
+                            <button class="btn-pink btn-project" id="weatherButton" >Read More</button>
                             <a href="">
                                 <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                             </a>
@@ -285,7 +285,7 @@
           backSpeed: 80,
           backDelay: 1000,
         });
-        var myButton = document.getElementsByClassName('weatherButton');
+        var myButton = document.getElementById('weatherButton');
 
     // Add a click event listener to the button
     myButton.addEventListener('click', function() {
