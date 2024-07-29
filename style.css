@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Be Vietnam Pro");
-
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -477,7 +479,7 @@ a{
 
 }
 #project2{
-    background-image: url(./Project2new.png);
+    background-image: url(./Project2.png);
     margin-left: 120px;
 }
 #project3{
@@ -616,3 +618,44 @@ a{
 .skill-subheading p{
     margin: 15px 0;
 }
+
+
+/* footer===========00 */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  .contact-info {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .contact-info p {
+      font-size: 14px;
+    }
+  
+    footer {
+      padding: 15px;
+    }
+  }
+  
